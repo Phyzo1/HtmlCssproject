@@ -1,0 +1,196 @@
+*{ padding: 0;
+   margin: 0; 
+   box-sizing: border-box;
+   overflow-x: hidden;
+}
+
+.stepA{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(150, 64, 111);
+    width: 100vw; 
+}
+
+.stepA img{
+    margin-right:15px;;
+}
+
+.stepA div{
+    margin-top: 20px;   
+}
+.stepA a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+.stepA input{
+    text-align: center;
+    width: 9vw;
+    height: 3vh;
+    border: none;
+    outline: none;
+    background-color: transparent;    
+}
+.stepA .search{
+    border: 1px solid #000; 
+    width: 15vw; 
+    height:4vh;
+    border-radius: 10px;
+    position: relative;
+    background-color: wheat;
+}
+.bi-search{
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    color: rgb(15, 14, 14);   
+}
+.stepB{
+    width: 100vw;
+    height: 50vh;
+   background-image: url(health1.jpg);
+   background-position: center;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+.stepB h2{
+    line-height: 100px;
+    color:  rgb(26, 2, 48);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-weight: lighter;
+}
+.stepB p{
+    width: 50vw;
+    color:  rgb(26, 2, 48);
+    line-height: 25px;
+}
+.stepC{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 40vh;
+    background-color: rgb(95, 93, 93);
+}
+.stepD{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 50vh;
+    margin-top: 10px;
+}
+.stepD div{
+    background-color: purple;
+    margin-right: 30px;
+    width: 30%;
+    border-radius: 20px;
+    padding-top: 15px;
+}
+.stepD h2 {
+    text-align: center;
+    color: wheat;
+}
+
+.stepD h4{
+   font-size: 18px;
+   font-weight: lighter;
+   color: white;
+   padding: 5px;
+   padding-left: 15px;
+   padding-right: 5px;
+   line-height: 30px;
+   font-family: 'Times New Roman', Times, serif;  
+}
+.stepD p{
+    margin-top: 50px;
+    margin-left: 5px;
+    background-color: wheat;
+    width: 30%;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+.stepD p a{
+    color: rgb(233, 154, 6);
+    text-decoration: none;
+    margin-right: 10px;
+}
+.stepE {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 90vh;
+    margin-top: 30px;
+    background-color: azure;   
+}
+
+.stepE img{
+    width: 40%;
+    margin-right: 30px;   
+}
+
+.stepE div{
+    width: 50%;
+}
+.stepE h2{
+    text-align: center;
+    line-height: 80px;
+}
+.stepE  p{
+    font:;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter; 
+    line-height: 25px;  
+}
+
+.stepF{
+    width: 100vw;
+    height: 50vh;
+    margin-top: 30px;
+    background-color:rgb(212, 37, 37);
+    padding-top: 20px;   
+}
+.stepF .footer1{
+    display: flex;
+   width: 100vw;  
+}
+.stepF .footer1 p{
+    color: wheat;
+}
+.stepF .footer1 .comp{
+    margin-right: 50px;   
+}
+.stepF .footer1 .comp h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.stepF .footer1 .comp p{
+    line-height: 25px;  
+}
+.stepF .footer1 .enq{
+    margin-top: 40px;
+    display: flex;
+}
+.stepF .footer1 .enq p{
+    line-height: 30px;   
+}
+.stepF .footer1 .enq div{
+    margin-right: 70px;
+}
+.stepF .footer1 .footcon a{
+    margin-right: 10px;
+    color: white; 
+}
+.stepF .footer2{
+    background-color: rgb(240, 227, 199);
+    padding: 12px;
+    margin-top: 37px;
+    font-weight: lighter;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:  italic;
+    display: flex;
+    justify-content: space-between;    
+}
