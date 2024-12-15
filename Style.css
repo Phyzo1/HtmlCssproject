@@ -9,10 +9,14 @@
     justify-content: space-around;
     background-color: rgb(150, 64, 111);
     width: 100vw; 
+    height: 80px;
 }
 
 .stepA img{
-    margin-right:15px;;
+    margin-right:15px;
+    width: 100px;
+    border-radius: 40px;
+    padding: 10px;
 }
 
 .stepA div{
@@ -52,6 +56,7 @@
    background-position: center;
     background-attachment: fixed;
     background-size: cover;  
+    padding-left: 50px;
 }
 .stepB h2{
     line-height: 100px;
@@ -139,7 +144,6 @@
     line-height: 80px;
 }
 .stepE  p{
-    font:;
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter; 
     line-height: 25px;  
@@ -148,9 +152,10 @@
 .stepF{
     width: 100vw;
     height: 50vh;
-    margin-top: 30px;
+    margin-top: 5 bnpx;
     background-color:rgb(212, 37, 37);
-    padding-top: 20px;   
+    padding-top: 20px;  
+    padding-left: 50px; 
 }
 .stepF .footer1{
     display: flex;
@@ -179,16 +184,15 @@
 .stepF .footer1 .enq div{
     margin-right: 70px;
 }
-.stepF .footer1 .footcon a{
+.footcon a{
     margin-right: 10px;
     color: white; 
 }
-.stepF .footer2{
+.footer2{
     background-color: rgb(240, 227, 199);
-    padding: 12px;
-    margin-top: 37px;
+    padding: 12px 40px;
     font-weight: lighter;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     font-style:  italic;
     display: flex;
